@@ -1,9 +1,8 @@
 # 19CS406-EX-1 STUDY OF SOCKET PROGRAMMING WITH CLIENT-SERVER MODEL
 
-DATE :08-03-2023
-
-##AIM :
-###Server:
+## DATE :08-03-2023
+## AIM:
+### Server:
 1. Create a server socket and bind it to port.
 2. Listen for new connection and when a connection arrives, accept it.
 3. Send server‟s date and time to the client.
