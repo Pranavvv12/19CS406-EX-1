@@ -12,7 +12,7 @@
 7. Close all streams.
 8. Close the server socket.
 9. Stop.
-Client:
+### Client:
 1. Create a client socket and connect it to the server‟s port number.
 2. Retrieve its own IP address using built-in function.
 3. Send its address to the server.
@@ -20,8 +20,8 @@ Client:
 5. Close the input and output streams.
 6. Close the client socket.
 7. Stop
-PROGRAM :
-CLIENT PROGRAM :
+## PROGRAM :
+### CLIENT PROGRAM :
 ```
 import socket
 from datetime import datetime
@@ -37,7 +37,7 @@ if ack:
   print(ack)
 c.close()
 ```
-SERVER PROGRAM :
+### SERVER PROGRAM :
 ```
 import socket
 s=socket.socket()
@@ -46,14 +46,14 @@ print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
 ```
-OUTPUT:
-CLIENT OUTPUT :
+## OUTPUT:
+### CLIENT OUTPUT :
 ![c1](https://github.com/Pranavvv12/19CS406-EX-1/assets/121292280/e6133600-a91b-4749-9532-a7270d3bf905)
 
-SERVER OUTPUT :
+### SERVER OUTPUT :
 ![S1](https://github.com/Pranavvv12/19CS406-EX-1/assets/121292280/23d2f094-1752-4b57-b78c-cfb8537487eb)
 
 
-RESULT:
+## RESULT:
 Thus, python program to perform stop and wait protocol was successfully executed.
 
