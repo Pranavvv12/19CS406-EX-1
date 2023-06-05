@@ -2,6 +2,8 @@
 
 ## DATE :08-03-2023
 ## AIM:
+To implement socket programming date and time display from client to
+server using TCPSockets
 ### Server:
 1. Create a server socket and bind it to port.
 2. Listen for new connection and when a connection arrives, accept it.
@@ -22,7 +24,7 @@
 7. Stop
 ## PROGRAM :
 ### CLIENT PROGRAM :
-```
+```python
 import socket
 from datetime import datetime
 s=socket.socket()
@@ -38,7 +40,7 @@ if ack:
 c.close()
 ```
 ### SERVER PROGRAM :
-```
+```python
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
